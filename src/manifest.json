@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "MouseFaker",
+  "version": "1.0.0",
+
+  "author": "Luis A. Leiva",
+  "description": "DoNotTrack my computer mouse.",
+
+  "icons": {
+    "128": "img/mousefaker.png"
+  },
+
+  "browser_action": {
+    "default_title": "MouseFaker",
+    "default_icon": "img/mousefaker.png",
+    "default_popup": "html/options.html"
+  },
+
+  "permissions": ["activeTab", "storage"],
+
+  "content_scripts": [{
+      "matches" : ["<all_urls>"],
+      "js" : ["js/mousefaker.js"],
+      "run_at": "document_start"
+  }]
+}

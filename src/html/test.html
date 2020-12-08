@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title>MouseMove Test</title>
+</head>
+<body>
+  <p>Open your JavaScript console to see some debug info.</p>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <p>This is to force scrolling and see the computed mouse coords</p>
+
+  <!--
+  <script src="../js/mousefaker.js"></script>
+  -->
+  <script>
+  document.addEventListener('mousemove', function handler(e) {
+      console.log(e.type, e.isTrusted, e.timeStamp);
+  });
+  </script>
+<body>
+</html>
