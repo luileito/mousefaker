@@ -37,3 +37,8 @@ By unticking this checkbox you will disable the extension on the current website
 This is a _local_ setting, which means that it applies only to the currently opened tab.
 
 **Note:** After changing any of these settings, you have to reload the page for the new options to be applied.
+
+## Test
+
+Open `src/html/test.html` and take a look at the JavaScript console.
+For every legitimate mouse movement (flagged as "true") you will see an additional mouse movement (flagged as "false").
