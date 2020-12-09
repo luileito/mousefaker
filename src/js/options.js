@@ -21,6 +21,10 @@
           var url = new URL(tab.url);
           var domain = url.hostname;
 
+          // Update label to clearly inform about the current domain
+          // where the extension is enabled.
+          $('domain').textContent = domain;
+
           // Populate already stored data.
           chrome.storage.sync.get(options, function(prefs) {
               $('noise').value = prefs.noiseValue;
