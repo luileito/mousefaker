@@ -1,9 +1,12 @@
 # MouseFaker
 
-Nowadays it is really straightforward to capture behavioral data by unobtrusively tracking mouse cursor movements.
-Thus, a disconcerting privacy issue could easily emerge because of unethical practices and uncontrolled use of technology.
+Nowadays it is really straightforward to capture behavioral data
+by unobtrusively tracking mouse cursor movements.
+Thus, a disconcerting privacy issue could easily emerge
+because of unethical practices and uncontrolled use of technology.
 
-This Chrome extension prevents user profiling by implementing the adversarial noise technique described in:
+This Chrome extension prevents user profiling via mouse tracking
+by implementing the adversarial noise technique described in:
 
   * L.A. Leiva, I. Arapakis, C. Iordanou (2021).
   **My Mouse, My Rules: Privacy Issues of Behavioral User Profiling via Mouse Tracking.**
@@ -20,7 +23,7 @@ so you need to enable the developer mode:
 
 Then you can clone this repo and install the extension
 by clicking on the "Load unpacked" button at the top-left corner
-and point to the `src` directory.
+and point to the `src` directory of the cloned repo.
 
 ## Configuring
 
