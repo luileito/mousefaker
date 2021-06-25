@@ -4,7 +4,7 @@ Implements the adversarial noise strategy described in:
   My Mouse, My Rules: Privacy Issues of Behavioral User Profiling via Mouse Tracking.
   Proc. CHIIR'21.
 */
-(function(window) {
+(function() {
 
   var document = window.document;
 
@@ -88,4 +88,4 @@ Implements the adversarial noise strategy described in:
       return z0 * std + mean;
   }
 
-})(this);
+})();
